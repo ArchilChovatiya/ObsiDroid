@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/webStream"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_10sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Remote control"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_17sdp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="wrap_content"
+                android:text="Shoulder: "
+                android:textSize="@dimen/_13sdp" />
+
+            <SeekBar
+                android:id="@+id/sbShoulder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="180"
+                android:progress="90" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="wrap_content"
+                android:text="Elbow: "
+                android:textSize="@dimen/_13sdp" />
+
+            <SeekBar
+                android:id="@+id/sbElbow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="180"
+                android:progress="90" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="wrap_content"
+                android:text="Rotation: "
+                android:textSize="@dimen/_13sdp" />
+
+            <SeekBar
+                android:id="@+id/sbRotate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="180"
+                android:progress="90" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="wrap_content"
+                android:text="Wrist: "
+                android:textSize="@dimen/_13sdp" />
+
+            <SeekBar
+                android:id="@+id/sbWrist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="180"
+                android:progress="90" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="wrap_content"
+                android:text="Grip: "
+                android:textSize="@dimen/_13sdp" />
+
+            <SeekBar
+                android:id="@+id/sbGrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="180"
+                android:progress="90" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

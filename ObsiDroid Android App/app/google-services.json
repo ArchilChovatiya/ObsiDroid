@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "471354192275",
+    "firebase_url": "https://obsidroid-3722b.firebaseio.com",
+    "project_id": "obsidroid-3722b",
+    "storage_bucket": "obsidroid-3722b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471354192275:android:d510ac407e10ec9d957866",
+        "android_client_info": {
+          "package_name": "com.shrewd.obsidroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471354192275-n5iivc8pud20pdcpkdau0frtc95c2hh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALJAdxCwRZ5RJdP2FrTUCAoORjALeh1lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471354192275-n5iivc8pud20pdcpkdau0frtc95c2hh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

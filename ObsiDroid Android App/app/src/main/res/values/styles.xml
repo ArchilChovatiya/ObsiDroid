@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarTheme">@style/MyActionBar</item>
+    </style>
+
+    <style name="ZoomingDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dg_zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/dg_zoom_out</item>
+    </style>
+
+    <style name="MyActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+</resources>
