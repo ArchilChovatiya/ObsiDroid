@@ -1,6 +1,4 @@
-# ObsiDroid (Pursuing)
-An Advanced Vision-based AI Robot
-
+# ObsiDroid 
 # Information about devlopers
 It is the final year project devloped by students of Department of Computer Engineering, Sarvajanik College of Engineering and Technology.
 
